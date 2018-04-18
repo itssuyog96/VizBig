@@ -3,13 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="./node_modules/mdbootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/mdbootstrap/css/mdb.min.css">
     <link rel="stylesheet" href="./node_modules/mdbootstrap/css/style.css">
   </head>
   <body>
-    <div class="container">
-      <h1>Hello World</h1>
+    <div class="container-fluid">
+      <h3 class="title">
+        <strong>Viz Big</strong>
+      </h3>
+
+      <div class="row">
+        <div class="col load-csv-div">
+          <button class="btn btn-default">Load CSV</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col option-btn-div">
+          <button class="btn btn-primary">Group by list of columns</button>
+        </div>
+        <div class="col option-btn-div">
+          <button class="btn btn-secondary">Aggregate list of columns</button>
+        </div>
+      </div>
+
+      <div class="row plot">
+        <div class="col">
+          <span>MatplotLib Graph</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="status">
+            <span class="primary">STATUS : </span>
+          </div>
+          <div class="progress" style="height: 20px">
+            <div class="progress-bar" role="progressbar" style="width: 25%; height: 20px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        </div>
+      </div>
     </div>
     
     <script src="./node_modules/mdbootstrap/js/jquery-3.2.1.min.js"></script>
