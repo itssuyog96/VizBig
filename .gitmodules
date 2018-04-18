@@ -1,0 +1,6 @@
+[submodule "py-script"]
+	path = py-script
+	url = https://github.com/ankschoubey/Hadoop-Mini-Project
+[submodule "py-scripts"]
+	path = py-scripts
+	url = https://github.com/ankschoubey/Hadoop-Mini-Project

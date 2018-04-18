@@ -3,16 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="./node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="./node_modules/mdbootstrap/css/style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-    <div id='app'>
-
+    <div class="container">
+      <h1>Hello World</h1>
     </div>
-    <!-- bundle.js here would be served by webpack-dev-server -->
-    <script type='text/javascript' src='http://localhost:8080/bundle.js'></script>
+    
+    <script src="./node_modules/mdbootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="./node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script src="./node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script src="./node_modules/mdbootstrap/js/mdb.min.js"></script>
   </body>
 </html>
